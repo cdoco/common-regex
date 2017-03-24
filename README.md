@@ -1,5 +1,7 @@
 # Common Regular Expression
 
+![Regex](http://cdoco.com/images/regex.png)
+
 ## Table of Contents
 
 - [Email](#email)
