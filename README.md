@@ -1,6 +1,4 @@
-# Common Regular Expression
-
-![Regex](http://cdoco.com/images/regex.png)
+![Regex](http://cdoco.com/images/regex2.png)
 
 ## Table of Contents
 
