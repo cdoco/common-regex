@@ -7,6 +7,7 @@
 - [Email](#email)
 - [Phone](#phone)
 - [Domain-name](#domain-name)
+- [IP](#ip)
 
 ## Email
 
@@ -35,4 +36,15 @@
 ```regex
 ^((http:\/\/)|(https:\/\/))?([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}(\/)
 ```
+
 ![domain-name](images/domain-name.png)
+
+## IP
+
+`127.0.0.1`
+
+```regex
+((?:(?:25[0-5]|2[0-4]\\d|[01]?\\d?\\d)\\.){3}(?:25[0-5]|2[0-4]\\d|[01]?\\d?\\d))
+```
+
+![ip](images/ip.png)
