@@ -6,6 +6,7 @@
 
 - [Email](#email)
 - [Phone](#phone)
+- [Domain-name](#domain-name)
 
 ## Email
 
@@ -26,3 +27,12 @@
 ```
 
 ![email](images/phone.png)
+
+## Domain-name
+
+`https://google.com`
+
+```regex
+/(?:https?:\/\/)?(?:item|detail)\.(?:taobao|tmall)\.com\/item.html?\?(?:[\&=\w\.-]*&)?id=(\d+)(?:$|&|#|,)/gim
+```
+![domain-name](images/domain-name.png)
