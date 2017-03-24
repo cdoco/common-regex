@@ -33,6 +33,6 @@
 `https://google.com`
 
 ```regex
-/(?:https?:\/\/)?(?:item|detail)\.(?:taobao|tmall)\.com\/item.html?\?(?:[\&=\w\.-]*&)?id=(\d+)(?:$|&|#|,)/gim
+^((http:\/\/)|(https:\/\/))?([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}(\/)
 ```
 ![domain-name](images/domain-name.png)
