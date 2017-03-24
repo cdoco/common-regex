@@ -15,7 +15,7 @@
 ^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$
 ```
 
-![email](images/email-regex.png)
+![email](images/email.png)
 
 ## Phone
 
@@ -25,4 +25,4 @@
 ^1(3|4|5|7|8)\d{9}$
 ```
 
-![email](images/phone-regex.png)
+![email](images/phone.png)
