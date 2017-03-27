@@ -43,13 +43,21 @@
 
 ## 电话
 
-`13012345678`
+`13012345678` 手机号
 
 ```regex
 ^1(3|4|5|7|8)\d{9}$
 ```
 
-![email](images/phone.png)
+![phone](images/phone.png)
+
+`XXX-XXXXXXX` `XXXX-XXXXXXXX"` 固定电话
+
+```regex
+(\(\d{3,4}\)|\d{3,4}-|\s)?\d{8}
+```
+
+![email](images/phone2.png)
 
 ## 域名
 
@@ -86,10 +94,10 @@
 `高子航`
 
 ```regex
-[\u4e00-\u9fa5]
+^[\u4e00-\u9fa5]{0,}$
 ```
 
-![chinese](images/chinese.png)
+![chinese](images/chineses.png)
 
 ## 数字正则
 
