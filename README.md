@@ -1,6 +1,4 @@
-<div align="center">
-    <p><img src="http://openlogos.org/logos/neo.jpg" /></p>
-</div>
+<div align="center"><img src="http://openlogos.org/logos/neo.jpg" /></div>
 
 ## 目录
 
